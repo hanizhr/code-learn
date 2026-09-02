@@ -1,0 +1,6 @@
+{
+  "name": "پلتفرم آموزش آنلاین برنامه‌نویسی",
+  "description": "پلتفرم جامع یادگیری برنامه‌نویسی، انتخاب مدرس، رزرو کلاس آنلاین و آموزش تعاملی به زبان فارسی",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

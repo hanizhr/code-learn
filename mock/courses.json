@@ -1,0 +1,218 @@
+[
+  {
+    "id": "course-python",
+    "title": "پایتون (Python)",
+    "slug": "python",
+    "category": "برنامه‌نویسی و اسکریپت‌نویسی",
+    "icon": "code",
+    "badgeColor": "blue",
+    "description": "از پایه‌ای‌ترین مفاهیم سینتکس پایتون تا برنامه‌نویسی شی‌گرا، کار با فایل‌ها، مدیریت پکیج‌ها و نوشتن الگوریتم‌های پیشرفته.",
+    "teachersCount": 3,
+    "totalHours": 45,
+    "levels": [
+      {
+        "id": "beginner",
+        "title": "مقدماتی",
+        "summary": "آشنایی با متغیرها، انواع داده، شرط‌ها، حلقه‌ها، توابع و مقدمات ساختار داده",
+        "topics": ["نصب و راه‌اندازی مفسر", "انواع متغیرها و عمگرها", "ساختارهای کنترلی if/else", "حلقه‌های for و while", "توابع و اسکوپ متغیرها", "لیست‌ها و دیکشنری‌ها"]
+      },
+      {
+        "id": "intermediate",
+        "title": "متوسط",
+        "summary": "برنامه‌نویسی شی‌گرا (OOP)، کار با ماژول‌ها، مدیریت خطا، فایل‌ها و پکیج‌های کاربردی",
+        "topics": ["مفاهیم شی‌گرایی و ارث‌بری", "دکوراتورها و ژنراتورها", "مدیریت استثناها (Exceptions)", "کار با JSON و فایل‌ها", "محیط‌های مجازی (Virtualenv)", "پکیج‌های requests و pip"]
+      },
+      {
+        "id": "advanced",
+        "title": "پیشرفته",
+        "summary": "توسعه ماژولار، برنامه‌نویسی ناهمگام (Asyncio)، بهینه‌سازی حافظه و نوشتن فریم‌ورک اختصاصی",
+        "topics": ["متن برنامه‌نویسی ناهمگام و تردینگ", "متاپروگرمینگ و متادیتا", "طراحی دیزاین‌پترن‌ها در پایتون", "تست‌نویسی با PyTest", "پروفایلینگ و بهینه‌سازی سرعت"]
+      }
+    ],
+    "curriculum": [
+      {
+        "chapterTitle": "فصل اول: پایه‌های زبان و تفکر الگوریتمی",
+        "lessons": [
+          {"id": "l-1", "title": "محیط توسعه و اولین برنامه", "duration": "۱۵ دقیقه", "type": "video"},
+          {"id": "l-2", "title": "عملگرها و محاسبات منطقی", "duration": "۲۰ دقیقه", "type": "article"},
+          {"id": "l-3", "title": "تمرین عملی: ماشین حساب هوشمند", "duration": "۳۰ دقیقه", "type": "exercise"}
+        ]
+      },
+      {
+        "chapterTitle": "فصل دوم: ساختمان داده‌های کاربردی",
+        "lessons": [
+          {"id": "l-4", "title": "لیست‌ها و متدهای آرایه‌ای", "duration": "۲۵ دقیقه", "type": "video"},
+          {"id": "l-5", "title": "دیکشنری و نگاشت داده‌ها", "duration": "۳۰ دقیقه", "type": "video"}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "course-web-dev",
+    "title": "توسعه فرانت‌اند وب (Web Development)",
+    "slug": "web-development",
+    "category": "توسعه وب و رابط کاربری",
+    "icon": "globe",
+    "badgeColor": "cyan",
+    "description": "یادگیری استانداردترین و به‌روزترین تکنولوژی‌های طراحی وب شامل HTML5، CSS3، جاوااسکریپت مدرن (ES6+) و معماری کامپوننت.",
+    "teachersCount": 2,
+    "totalHours": 60,
+    "levels": [
+      {
+        "id": "beginner",
+        "title": "مقدماتی",
+        "summary": "ساختاربندی معنایی با HTML5، طراحی واکنش‌گرا و استایل‌دهی با CSS3 مدرن",
+        "topics": ["تگ‌های معنایی Semantic HTML", "مدل جعبه‌ای (Box Model)", "Flexbox و Grid Layout", "مدیاکوئری و طراحی ریسپانسیو", "طراحی فرم‌های کاربردی"]
+      },
+      {
+        "id": "intermediate",
+        "title": "متوسط",
+        "summary": "جاوااسکریپت تعاملی، دستکاری DOM، مدیریت رویدادها، انیمیشن‌ها و فرم‌های پیشرفته",
+        "topics": ["سینتکس مدرن ES6+", "دستکاری سند وب (DOM/BOM)", "مدیریت رویدادها (Events)", "ارتباط ناهمگام با Fetch & AJAX", "ذخیره‌سازی لوکال (LocalStorage)"]
+      },
+      {
+        "id": "advanced",
+        "title": "پیشرفته",
+        "summary": "معماری Single Page Application، فریم‌ورک‌های مدرن، بهینه‌سازی رندرینگ و PWA",
+        "topics": ["معماری کامپوننت‌محور", "مدیریت وضعیت سراسری (State Management)", "پرفورمنس و لود بهینه", "اصول دسترس‌پذیری (A11y)", "تست‌های E2E و Unit"]
+      }
+    ],
+    "curriculum": [
+      {
+        "chapterTitle": "فصل اول: الفبای وب مدرن",
+        "lessons": [
+          {"id": "l-10", "title": "اصول Semantic HTML5", "duration": "۲۰ دقیقه", "type": "video"},
+          {"id": "l-11", "title": "فلکس‌باکس و گرید در عمل", "duration": "۳۵ دقیقه", "type": "video"}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "course-ai",
+    "title": "هوش مصنوعی و یادگیری ماشین (AI & ML)",
+    "slug": "artificial-intelligence",
+    "category": "هوش مصنوعی و علوم داده",
+    "icon": "cpu",
+    "badgeColor": "purple",
+    "description": "ورود به دنیای مدل‌های زبانی، شبکه‌های عصبی عمیق، پردازش تصویر و یادگیری نظارت‌شده و بدون نظارت با پایتون.",
+    "teachersCount": 2,
+    "totalHours": 55,
+    "levels": [
+      {
+        "id": "beginner",
+        "title": "مقدماتی",
+        "summary": "مقدمات ریاضیات داده، کتابخانه‌های NumPy و Pandas و آمار توصیفی برای هوش مصنوعی",
+        "topics": ["آرایه‌های چندبعدی با NumPy", "تحلیل و پاکسازی داده با Pandas", "بصری‌سازی داده با Matplotlib", "مفاهیم اولیه رگرسیون و دسته‌بندی"]
+      },
+      {
+        "id": "intermediate",
+        "title": "متوسط",
+        "summary": "الگوریتم‌های یادگیری ماشین با Scikit-Learn، اعتبارسنجی مدل و مهندسی ویژگی",
+        "topics": ["درخت‌های تصمیم و Random Forest", "ماشین‌های بردار پشتیبان (SVM)", "خوشه‌بندی و کاهش ابعاد", "ارزیابی دقت و ماتریس اغتشاش"]
+      },
+      {
+        "id": "advanced",
+        "title": "پیشرفته",
+        "summary": "یادگیری عمیق (Deep Learning) با PyTorch، شبکه‌های کانولوشنی (CNN) و ترنسفورمرها",
+        "topics": ["معماری شبکه‌های عصبی عمیق", "بینایی ماشین با CNN", "پردازش زبان طبیعی (NLP)", "مدل‌های ترنسفورمر و LLMها"]
+      }
+    ],
+    "curriculum": []
+  },
+  {
+    "id": "course-django",
+    "title": "فریم‌ورک جنگو (Django)",
+    "slug": "django",
+    "category": "توسعه بک‌اند و وب‌سرویس",
+    "icon": "layers",
+    "badgeColor": "emerald",
+    "description": "ساخت وب‌سایت‌ها و وب‌سرویس‌های مقیاس‌پذیر با قدرتمندترین فریم‌ورک بک‌اند پایتون و Django REST Framework.",
+    "teachersCount": 2,
+    "totalHours": 40,
+    "levels": [
+      {
+        "id": "beginner",
+        "title": "مقدماتی",
+        "summary": "آشنایی با الگوی MVT، مدل‌ها، مایگریشن‌ها، پنل ادمین و ویوهای ساده",
+        "topics": ["ساختار پروژه و اپ‌ها در جنگو", "طراحی مدل‌ها و ORM", "پنل مدیریت شگفت‌انگیز جنگو", "تمپلیت انجین و فرم‌ها"]
+      },
+      {
+        "id": "intermediate",
+        "title": "متوسط",
+        "summary": "ویوهای کلاس‌محور (CBV)، احراز هویت سفارشی، سیگنال‌ها و ارتباط با دیتابیس PostgreSQL",
+        "topics": ["Class Based Views و جنریک‌ها", "سیستم احراز هویت سفارشی", "سیگنال‌ها و میدل‌ویرها", "ارسال ایمیل و وظایف پس‌زمینه"]
+      },
+      {
+        "id": "advanced",
+        "title": "پیشرفته",
+        "summary": "توسعه REST API با DRF، احراز هویت JWT، کشینگ Redis، داکرایز کردن و تست",
+        "topics": ["Django REST Framework (DRF)", "سریالایزرها و ViewSetها", "امنیت API و احراز هویت JWT", "کش با Redis و Celery"]
+      }
+    ],
+    "curriculum": []
+  },
+  {
+    "id": "course-nodejs",
+    "title": "نود جی‌اس و اکسپرس (Node.js & Express)",
+    "slug": "nodejs",
+    "category": "توسعه بک‌اند و وب‌سرویس",
+    "icon": "server",
+    "badgeColor": "amber",
+    "description": "برنامه‌نویسی سمت سرور فوق‌سریع با جاوااسکریپت و تایپ‌اسکریپت، معماری میکروسرویس و ارتباطات Real-time با وب‌سوکت.",
+    "teachersCount": 2,
+    "totalHours": 45,
+    "levels": [
+      {
+        "id": "beginner",
+        "title": "مقدماتی",
+        "summary": "معماری Event Loop در Node.js، ماژول‌های اصلی (fs, http, path) و شروع با Express",
+        "topics": ["مفاهیم ماژولاریتی در نود", "سیستم پکیج‌های NPM", "ساخت اولین وب‌سرور با Express", "مسیربندی (Routing) و پارامترها"]
+      },
+      {
+        "id": "intermediate",
+        "title": "متوسط",
+        "summary": "طراحی RESTful API، میدل‌ویرها، اعتبارسنجی داده و اتصال به MongoDB با Mongoose",
+        "topics": ["میدل‌ویرهای اختصاصی", "طراحی اسکیما و مدل‌ها در Mongoose", "کنترل خطا و لاگ‌گیری", "امنیت با Helmet و Rate Limit"]
+      },
+      {
+        "id": "advanced",
+        "title": "پیشرفته",
+        "summary": "معماری Clean Architecture، احراز هویت با JWT/OAuth2، ارتباط وب‌سوکت و میکروسرویس",
+        "topics": ["پیاده‌سازی Socket.io", "معماری لایه‌ای و DI", "آزمون‌های یکپارچه‌سازی (Jest/Supertest)", "کوئری‌های پرسرعت و استریمینگ"]
+      }
+    ],
+    "curriculum": []
+  },
+  {
+    "id": "course-database",
+    "title": "پایگاه‌های داده (Database: SQL & NoSQL)",
+    "slug": "database",
+    "category": "مدیریت داده و زیرساخت",
+    "icon": "database",
+    "badgeColor": "rose",
+    "description": "طراحی اسکیما، نرمال‌سازی، نوشتن کوئری‌های بهینه SQL در PostgreSQL و MySQL و ذخیره‌سازی اسناد با MongoDB.",
+    "teachersCount": 3,
+    "totalHours": 35,
+    "levels": [
+      {
+        "id": "beginner",
+        "title": "مقدماتی",
+        "summary": "مفاهیم دیتابیس رابطه‌ای، دستورات CRUD پایه، جوین‌ها و فیلترگذاری رکوردها",
+        "topics": ["اصول مدل رابطه‌ای (Relational)", "دستورات SELECT, INSERT, UPDATE, DELETE", "کلیدهای اصلی و خارجی", "دستورات JOIN و گروه‌بندی"]
+      },
+      {
+        "id": "intermediate",
+        "title": "متوسط",
+        "summary": "ایندکس‌گذاری، تراکنش‌های ACID، توابع تجمیعی، ویوها و ذخیره پروسیجرها",
+        "topics": ["استراتژی‌های Indexing", "تراکنش‌ها و ایزوله‌سازی ACID", "ویوها (Views) و تریگرها", "مقدمه‌ای بر MongoDB"]
+      },
+      {
+        "id": "advanced",
+        "title": "پیشرفته",
+        "summary": "پارتیشن‌بندی جداول، رپلیکیشن، بهینه‌سازی پلن‌های اجرای کوئری (Query Optimization) و Sharding",
+        "topics": ["تحلیل EXPLAIN ANALYZE", "شاردینگ و رپلیکیشن دیتابیس", "بهینه‌سازی I/O و بافر سرور", "کوئری‌های جغرافیایی و فول‌تکست"]
+      }
+    ],
+    "curriculum": []
+  }
+]

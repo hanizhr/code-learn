@@ -1,0 +1,119 @@
+{
+  "teacher-1": {
+    "weeklySchedule": {
+      "saturday": [
+        {"id": "t1-sat-09", "time": "09:00 - 10:00", "isBooked": false, "isBlocked": false},
+        {"id": "t1-sat-10", "time": "10:00 - 11:00", "isBooked": true, "isBlocked": false},
+        {"id": "t1-sat-11", "time": "11:00 - 12:00", "isBooked": false, "isBlocked": false},
+        {"id": "t1-sat-15", "time": "15:00 - 16:00", "isBooked": false, "isBlocked": false},
+        {"id": "t1-sat-16", "time": "16:00 - 17:00", "isBooked": false, "isBlocked": false},
+        {"id": "t1-sat-17", "time": "17:00 - 18:00", "isBooked": false, "isBlocked": false}
+      ],
+      "sunday": [
+        {"id": "t1-sun-10", "time": "10:00 - 11:00", "isBooked": false, "isBlocked": false},
+        {"id": "t1-sun-11", "time": "11:00 - 12:00", "isBooked": false, "isBlocked": false},
+        {"id": "t1-sun-14", "time": "14:00 - 15:00", "isBooked": false, "isBlocked": false},
+        {"id": "t1-sun-15", "time": "15:00 - 16:00", "isBooked": false, "isBlocked": false}
+      ],
+      "monday": [
+        {"id": "t1-mon-14", "time": "14:00 - 15:00", "isBooked": false, "isBlocked": false},
+        {"id": "t1-mon-15", "time": "15:00 - 16:00", "isBooked": false, "isBlocked": false},
+        {"id": "t1-mon-16", "time": "16:00 - 17:00", "isBooked": true, "isBlocked": false},
+        {"id": "t1-mon-17", "time": "17:00 - 18:00", "isBooked": false, "isBlocked": false}
+      ],
+      "tuesday": [
+        {"id": "t1-tue-09", "time": "09:00 - 10:00", "isBooked": false, "isBlocked": false},
+        {"id": "t1-tue-10", "time": "10:00 - 11:00", "isBooked": false, "isBlocked": false},
+        {"id": "t1-tue-11", "time": "11:00 - 12:00", "isBooked": false, "isBlocked": false}
+      ],
+      "wednesday": [
+        {"id": "t1-wed-15", "time": "15:00 - 16:00", "isBooked": false, "isBlocked": false},
+        {"id": "t1-wed-16", "time": "16:00 - 17:00", "isBooked": false, "isBlocked": false},
+        {"id": "t1-wed-17", "time": "17:00 - 18:00", "isBooked": false, "isBlocked": false}
+      ],
+      "thursday": [
+        {"id": "t1-thu-10", "time": "10:00 - 11:00", "isBooked": false, "isBlocked": false},
+        {"id": "t1-thu-11", "time": "11:00 - 12:00", "isBooked": false, "isBlocked": false}
+      ],
+      "friday": []
+    },
+    "blockedDates": ["1403/06/25"]
+  },
+  "teacher-2": {
+    "weeklySchedule": {
+      "saturday": [
+        {"id": "t2-sat-10", "time": "10:00 - 11:00", "isBooked": false, "isBlocked": false},
+        {"id": "t2-sat-11", "time": "11:00 - 12:00", "isBooked": false, "isBlocked": false},
+        {"id": "t2-sat-16", "time": "16:00 - 17:00", "isBooked": false, "isBlocked": false}
+      ],
+      "sunday": [
+        {"id": "t2-sun-09", "time": "09:00 - 10:00", "isBooked": false, "isBlocked": false},
+        {"id": "t2-sun-10", "time": "10:00 - 11:00", "isBooked": false, "isBlocked": false},
+        {"id": "t2-sun-11", "time": "11:00 - 12:00", "isBooked": true, "isBlocked": false}
+      ],
+      "monday": [
+        {"id": "t2-mon-15", "time": "15:00 - 16:00", "isBooked": false, "isBlocked": false},
+        {"id": "t2-mon-16", "time": "16:00 - 17:00", "isBooked": false, "isBlocked": false},
+        {"id": "t2-mon-17", "time": "17:00 - 18:00", "isBooked": false, "isBlocked": false}
+      ],
+      "tuesday": [
+        {"id": "t2-tue-14", "time": "14:00 - 15:00", "isBooked": false, "isBlocked": false},
+        {"id": "t2-tue-15", "time": "15:00 - 16:00", "isBooked": false, "isBlocked": false}
+      ],
+      "wednesday": [
+        {"id": "t2-wed-10", "time": "10:00 - 11:00", "isBooked": false, "isBlocked": false},
+        {"id": "t2-wed-11", "time": "11:00 - 12:00", "isBooked": false, "isBlocked": false}
+      ],
+      "thursday": [
+        {"id": "t2-thu-09", "time": "09:00 - 10:00", "isBooked": false, "isBlocked": false},
+        {"id": "t2-thu-10", "time": "10:00 - 11:00", "isBooked": false, "isBlocked": false}
+      ],
+      "friday": []
+    },
+    "blockedDates": []
+  },
+  "teacher-3": {
+    "weeklySchedule": {
+      "saturday": [
+        {"id": "t3-sat-14", "time": "14:00 - 15:00", "isBooked": false, "isBlocked": false},
+        {"id": "t3-sat-15", "time": "15:00 - 16:00", "isBooked": false, "isBlocked": false}
+      ],
+      "sunday": [
+        {"id": "t3-sun-16", "time": "16:00 - 17:00", "isBooked": false, "isBlocked": false},
+        {"id": "t3-sun-17", "time": "17:00 - 18:00", "isBooked": false, "isBlocked": false}
+      ],
+      "monday": [
+        {"id": "t3-mon-10", "time": "10:00 - 11:00", "isBooked": false, "isBlocked": false}
+      ],
+      "tuesday": [],
+      "wednesday": [
+        {"id": "t3-wed-14", "time": "14:00 - 15:00", "isBooked": false, "isBlocked": false},
+        {"id": "t3-wed-15", "time": "15:00 - 16:00", "isBooked": false, "isBlocked": false}
+      ],
+      "thursday": [],
+      "friday": []
+    },
+    "blockedDates": []
+  },
+  "teacher-4": {
+    "weeklySchedule": {
+      "saturday": [
+        {"id": "t4-sat-16", "time": "16:00 - 17:00", "isBooked": false, "isBlocked": false},
+        {"id": "t4-sat-17", "time": "17:00 - 18:00", "isBooked": false, "isBlocked": false}
+      ],
+      "sunday": [
+        {"id": "t4-sun-10", "time": "10:00 - 11:00", "isBooked": false, "isBlocked": false}
+      ],
+      "monday": [
+        {"id": "t4-mon-16", "time": "16:00 - 17:00", "isBooked": false, "isBlocked": false}
+      ],
+      "tuesday": [],
+      "wednesday": [
+        {"id": "t4-wed-18", "time": "18:00 - 19:00", "isBooked": false, "isBlocked": false}
+      ],
+      "thursday": [],
+      "friday": []
+    },
+    "blockedDates": []
+  }
+}

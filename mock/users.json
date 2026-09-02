@@ -1,0 +1,60 @@
+[
+  {
+    "id": "user-student-1",
+    "name": "علی رضایی",
+    "email": "ali@example.com",
+    "phone": "09121112233",
+    "role": "student",
+    "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+    "bio": "دانشجوی مشتاق یادگیری پایتون و هوش مصنوعی",
+    "level": "متوسط",
+    "enrolledCourses": ["course-python", "course-django"],
+    "registeredAt": "1403/01/15",
+    "walletBalance": 1250000
+  },
+  {
+    "id": "user-student-2",
+    "name": "سارا محمدی",
+    "email": "sara@example.com",
+    "phone": "09123334455",
+    "role": "student",
+    "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80",
+    "bio": "علاقه‌مند به فرانت‌اند و برنامه‌نویسی وب مدرن",
+    "level": "مقدماتی",
+    "enrolledCourses": ["course-web-dev"],
+    "registeredAt": "1403/02/10",
+    "walletBalance": 800000
+  },
+  {
+    "id": "user-teacher-1",
+    "name": "دکتر نیما کمالی",
+    "email": "nima@example.com",
+    "phone": "09125556677",
+    "role": "teacher",
+    "avatar": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?w=150&auto=format&fit=crop&q=80",
+    "bio": "دکتری هوش مصنوعی و مدرس ارشد پایتون و جنگو با بیش از ۱۰ سال سابقه در صنعت نرم‌افزار.",
+    "registeredAt": "1402/08/20",
+    "teacherId": "teacher-1"
+  },
+  {
+    "id": "user-teacher-2",
+    "name": "مهندس مریم حسینی",
+    "email": "maryam@example.com",
+    "phone": "09127778899",
+    "role": "teacher",
+    "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&auto=format&fit=crop&q=80",
+    "bio": "توسعه‌دهنده فول‌استک و متخصص ارشد React و Node.js در پروژه‌های مقیاس‌پذیر بین‌المللی.",
+    "registeredAt": "1402/09/15",
+    "teacherId": "teacher-2"
+  },
+  {
+    "id": "user-admin-1",
+    "name": "مدیر سیستم",
+    "email": "admin@codelearn.ir",
+    "phone": "09120000000",
+    "role": "admin",
+    "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&auto=format&fit=crop&q=80",
+    "bio": "مدیر کل پلتفرم آموزش کدلرن",
+    "registeredAt": "1402/01/01"
+  }
+]

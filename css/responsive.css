@@ -1,0 +1,177 @@
+/* ==========================================================================
+   Responsive Adaptations (Tablet, Mobile, Breakpoints)
+   ========================================================================== */
+
+/* Mobile Navigation Toggle & Drawer */
+.mobile-nav-toggle {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-md);
+  color: var(--color-text-main);
+  background-color: var(--color-bg-subtle);
+}
+
+.mobile-nav-drawer {
+  display: none;
+}
+
+/* Breakpoint: Desktop / Laptop down (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .dashboard-layout {
+    flex-direction: column;
+  }
+
+  .dashboard-sidebar {
+    width: 100%;
+    height: auto;
+    position: static;
+    border-left: none;
+    border-bottom: 1px solid var(--color-border);
+    padding: var(--space-4);
+  }
+
+  .sidebar-nav {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    gap: var(--space-2);
+    padding-bottom: var(--space-2);
+  }
+
+  .sidebar-item {
+    white-space: nowrap;
+    padding: var(--space-2) var(--space-3);
+  }
+
+  .sidebar-footer {
+    display: none;
+  }
+
+  .dashboard-content {
+    padding: var(--space-6) var(--space-4);
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-8);
+  }
+
+  .live-classroom-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Breakpoint: Tablet down (max-width: 768px) */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  .mobile-nav-toggle {
+    display: flex;
+  }
+
+  .grid-cols-2, .grid-cols-3, .grid-cols-4 {
+    grid-template-columns: 1fr;
+  }
+
+  .teacher-card-actions {
+    grid-template-columns: 1fr;
+  }
+
+  .calendar-grid-week {
+    grid-template-columns: 1fr;
+  }
+
+  .calendar-day-col {
+    border-left: none;
+    border-bottom: 1px solid var(--color-border);
+    min-height: auto;
+  }
+
+  .calendar-slots-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .step-wizard {
+    overflow-x: auto;
+    padding-bottom: var(--space-2);
+  }
+
+  .step-wizard::before {
+    display: none;
+  }
+
+  .step-item {
+    min-width: 70px;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-6);
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: var(--space-3);
+    text-align: center;
+  }
+
+  /* Mobile Drawer Overlay */
+  .mobile-nav-drawer {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: var(--header-height);
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: var(--color-bg-surface);
+    z-index: 50;
+    padding: var(--space-6);
+    gap: var(--space-4);
+    transform: translateX(100%);
+    transition: transform var(--transition-normal);
+  }
+
+  .mobile-nav-drawer.open {
+    transform: translateX(0);
+  }
+
+  .mobile-nav-drawer .nav-link {
+    font-size: var(--font-size-base);
+    padding: var(--space-3) 0;
+    border-bottom: 1px solid var(--color-border);
+  }
+}
+
+/* Breakpoint: Small Mobile (max-width: 480px) */
+@media (max-width: 480px) {
+  .section-title-wrap h2 {
+    font-size: var(--font-size-2xl);
+  }
+
+  .btn {
+    padding: 0.5rem 1rem;
+  }
+
+  .modal-dialog {
+    margin: var(--space-2);
+    max-height: 95vh;
+  }
+
+  .video-stage {
+    aspect-ratio: 4 / 3;
+  }
+
+  .video-feed-self {
+    width: 100px;
+    height: 70px;
+    bottom: 10px;
+    left: 10px;
+  }
+}

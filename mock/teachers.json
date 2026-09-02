@@ -1,0 +1,173 @@
+[
+  {
+    "id": "teacher-1",
+    "userId": "user-teacher-1",
+    "name": "دکتر نیما کمالی",
+    "avatar": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?w=300&auto=format&fit=crop&q=80",
+    "title": "مدرس ارشد پایتون، جنگو و هوش مصنوعی",
+    "specialties": ["Python", "Django", "Artificial Intelligence", "Machine Learning"],
+    "rating": 4.95,
+    "reviewCount": 84,
+    "completedClasses": 142,
+    "hourlyRate": 450000,
+    "bio": "دکتری هوش مصنوعی از دانشگاه تهران با بیش از ۱۰ سال تجربه توسعه بک‌اند، پردازش زبان طبیعی و تدریس به بیش از ۵۰۰ دانشجو. سبک تدریس من کاملاً پروژه‌محور و مبتنی بر حل مسئله در سناریوهای واقعی بازار کار است.",
+    "education": "دکتری هوش مصنوعی - دانشگاه تهران",
+    "experienceYears": 10,
+    "preferredProvider": "google_meet",
+    "teachingSubjects": [
+      {
+        "subjectId": "course-python",
+        "subjectTitle": "پایتون (Python)",
+        "levels": ["beginner", "intermediate", "advanced"]
+      },
+      {
+        "subjectId": "course-django",
+        "subjectTitle": "فریم‌ورک جنگو (Django)",
+        "levels": ["beginner", "intermediate", "advanced"]
+      },
+      {
+        "subjectId": "course-ai",
+        "subjectTitle": "هوش مصنوعی و یادگیری ماشین",
+        "levels": ["intermediate", "advanced"]
+      }
+    ],
+    "reviews": [
+      {
+        "id": "rev-1",
+        "studentName": "پویا کریمی",
+        "studentAvatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=100&auto=format&fit=crop&q=80",
+        "rating": 5,
+        "date": "۱۴۰۳/۰۴/۱۸",
+        "comment": "تسلط استاد بر مباحث شی‌گرایی و معماری جنگو فوق‌العاده بود. در ۳ جلسه اشکالاتی که ماه‌ها داشتم برطرف شد."
+      },
+      {
+        "id": "rev-2",
+        "studentName": "زهرا فلاحی",
+        "studentAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&auto=format&fit=crop&q=80",
+        "rating": 5,
+        "date": "۱۴۰۳/۰۵/۰۲",
+        "comment": "بسیار صبور و دقیق. تمرین‌های پروژه‌محوری که دادن عالی بود و برای مصاحبه کاری کمکم کرد."
+      }
+    ]
+  },
+  {
+    "id": "teacher-2",
+    "userId": "user-teacher-2",
+    "name": "مهندس مریم حسینی",
+    "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&auto=format&fit=crop&q=80",
+    "title": "توسعه‌دهنده ارشد فول‌استک وب (React & Node.js)",
+    "specialties": ["Web Development", "Node.js", "React", "Database"],
+    "rating": 4.9,
+    "reviewCount": 67,
+    "completedClasses": 118,
+    "hourlyRate": 400000,
+    "bio": "مهندس نرم‌افزار و تک‌لید در شرکت‌های دانش‌بنیان. عاشق آموزش مفاهیم فرانت‌اند، جاوااسکریپت پیشرفته، بهینه‌سازی عملکرد وب و ایجاد وب‌سرویس‌های مقیاس‌پذیر با Node.js.",
+    "education": "کارشناسی ارشد مهندسی نرم‌افزار - دانشگاه امیرکبیر",
+    "experienceYears": 8,
+    "preferredProvider": "skyroom",
+    "teachingSubjects": [
+      {
+        "subjectId": "course-web-dev",
+        "subjectTitle": "توسعه وب (HTML/CSS/JS)",
+        "levels": ["beginner", "intermediate", "advanced"]
+      },
+      {
+        "subjectId": "course-nodejs",
+        "subjectTitle": "نود جی‌اس (Node.js & Express)",
+        "levels": ["beginner", "intermediate", "advanced"]
+      },
+      {
+        "subjectId": "course-database",
+        "subjectTitle": "پایگاه‌های داده (SQL & NoSQL)",
+        "levels": ["beginner", "intermediate"]
+      }
+    ],
+    "reviews": [
+      {
+        "id": "rev-3",
+        "studentName": "امیرحسین رضوی",
+        "studentAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80",
+        "rating": 5,
+        "date": "۱۴۰۳/۰۴/۲۹",
+        "comment": "کلاس وب خانم مهندس حسینی مسیر کاری من رو عوض کرد. مفاهیم Async/Await و DOM رو به ساده‌ترین شکل توضیح دادن."
+      }
+    ]
+  },
+  {
+    "id": "teacher-3",
+    "userId": "user-teacher-3",
+    "name": "مهندس آرش طاهری",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&auto=format&fit=crop&q=80",
+    "title": "متخصص یادگیری عمیق و مهندسی داده",
+    "specialties": ["Machine Learning", "Artificial Intelligence", "Python", "Database"],
+    "rating": 4.85,
+    "reviewCount": 42,
+    "completedClasses": 95,
+    "hourlyRate": 520000,
+    "bio": "پژوهشگر داده و مدرس دوره‌های بین‌المللی یادگیری ماشین با تمرکز بر Computer Vision و PyTorch. راهنمای پایان‌نامه و منتور استارتاپ‌های هوش مصنوعی.",
+    "education": "کارشناسی ارشد هوش مصنوعی - دانشگاه صنعتی شریف",
+    "experienceYears": 7,
+    "preferredProvider": "google_meet",
+    "teachingSubjects": [
+      {
+        "subjectId": "course-ai",
+        "subjectTitle": "هوش مصنوعی و یادگیری ماشین",
+        "levels": ["beginner", "intermediate", "advanced"]
+      },
+      {
+        "subjectId": "course-python",
+        "subjectTitle": "پایتون (Python)",
+        "levels": ["intermediate", "advanced"]
+      },
+      {
+        "subjectId": "course-database",
+        "subjectTitle": "پایگاه‌های داده (SQL & NoSQL)",
+        "levels": ["intermediate", "advanced"]
+      }
+    ],
+    "reviews": [
+      {
+        "id": "rev-4",
+        "studentName": "مهسا ناصری",
+        "studentAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&auto=format&fit=crop&q=80",
+        "rating": 5,
+        "date": "۱۴۰۳/۰۵/۱۱",
+        "comment": "دید ریاضیاتی و الگوریتمی بسیار قوی دارند و مباحث شبکه‌های عصبی رو از پایه شفاف کردند."
+      }
+    ]
+  },
+  {
+    "id": "teacher-4",
+    "userId": "user-teacher-4",
+    "name": "مهندس سهراب یزدانی",
+    "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=300&auto=format&fit=crop&q=80",
+    "title": "معمار سیستم‌های توزیع‌شده و پایگاه داده",
+    "specialties": ["Database", "Django", "Python", "Node.js"],
+    "rating": 4.88,
+    "reviewCount": 39,
+    "completedClasses": 86,
+    "hourlyRate": 480000,
+    "bio": "بیش از ۹ سال تجربه معماری پایگاه داده‌های رابطه‌ای (PostgreSQL) و NoSQL (MongoDB, Redis)، بهینه‌سازی کوئری‌های سنگین و امنیت سیستم‌های ابری.",
+    "education": "کارشناسی مهندسی نرم‌افزار - دانشگاه علم و صنعت",
+    "experienceYears": 9,
+    "preferredProvider": "skyroom",
+    "teachingSubjects": [
+      {
+        "subjectId": "course-database",
+        "subjectTitle": "پایگاه‌های داده (SQL & NoSQL)",
+        "levels": ["beginner", "intermediate", "advanced"]
+      },
+      {
+        "subjectId": "course-django",
+        "subjectTitle": "فریم‌ورک جنگو (Django)",
+        "levels": ["intermediate", "advanced"]
+      },
+      {
+        "subjectId": "course-nodejs",
+        "subjectTitle": "نود جی‌اس (Node.js & Express)",
+        "levels": ["intermediate", "advanced"]
+      }
+    ],
+    "reviews": []
+  }
+]
